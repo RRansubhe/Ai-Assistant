@@ -6,10 +6,18 @@ Speech.py is used because, it needs to take command which you will say to it.
 
 
 You Should have these modules Imported,
-import datetime #pip install datetime
-import smtplib # it will be already imported in your system
-import webbrowser #pip install webbrowser
-import pyjokes #pip install pyjokes
-import pyttsx3 #pip install pyttsx3
-import speech_recognition as sr #pip install SpeechRecognition
-import wikipedia #pip install wikipedia
+import datetime
+import os
+import smtplib
+import webbrowser
+import pyjokes
+import pyttsx3
+import speech_recognition as sr
+import wikipedia
+import subprocess
+import ctypes
+import winshell
+import wolframalpha
+import win32com.client as wincl
+import time
+import requests
